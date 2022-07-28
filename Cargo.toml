@@ -1,0 +1,8 @@
+[package]
+name = "tanks"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.iyesengine]
+git = "https://github.com/IyesGames/iyesengine"
+features = ["2d", "3d", "bevy-ui", "audio", "physics", "tilemap", "shapes"]
